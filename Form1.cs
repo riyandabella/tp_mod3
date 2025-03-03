@@ -16,5 +16,35 @@ namespace tp_mod3
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string input = textBox1.Text;
+
+            if (!string.IsNullOrEmpty(input))
+            {
+                label2.Text = "Halo! " + input;
+            }
+        }
     }
 }
